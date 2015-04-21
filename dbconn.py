@@ -14,6 +14,7 @@ def conndb():
         team_data.append(team_single)
     cur.close()
     return team_data
+
    
 def test():
     print conndb()
